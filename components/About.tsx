@@ -1,7 +1,5 @@
-// import { motion } from "motion/react";
-import { Award } from "lucide-react";
+
 import { ClientMotion } from "./animation";
-import Link from "next/link";
 import { certifications } from "@/data/data";
 import Certificate from "./certificate";
 

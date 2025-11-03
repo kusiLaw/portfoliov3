@@ -6,7 +6,6 @@ import {
   Globe,
   Cloud,
   Code,
-  Sparkles,
   
 } from "lucide-react";
 import { ClientMotion } from "./animation";

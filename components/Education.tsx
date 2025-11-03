@@ -1,4 +1,4 @@
-import { GraduationCap, Award, BookOpen } from "lucide-react";
+import { GraduationCap, BookOpen } from "lucide-react";
 import { ClientMotion  } from "./animation";
 import { education, certifications, professionalDevelopment } from "../data/data";
 import Certificate from "./certificate";
