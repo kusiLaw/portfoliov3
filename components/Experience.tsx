@@ -32,7 +32,7 @@ export function Experience() {
                 <div className="bg-slate-50 p-6 rounded-lg">
                   <div className="flex items-start gap-3 mb-3">
                     <Briefcase
-                      className="text-slate-700 mt-1 flex-shrink-0"
+                      className="text-slate-700 mt-1 shrink-0"
                       size={20}
                     />
                     <div className="flex-1">

@@ -21,7 +21,7 @@ export function Hero() {
           >
             <Badge
               variant="secondary"
-              className="mb-4 border-slate-900 px-3 py-1 bg-gradient-to-r from-orange-50 via-slate-100  to-slate-300"
+              className="mb-4 border-slate-900 px-3 py-1 bg-linear-to-r from-orange-50 via-slate-100  to-slate-300"
             >
               Available for new opportunities
             </Badge>
