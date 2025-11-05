@@ -11,7 +11,7 @@ function Certificate({title, issuer, link="#"}: {title?: string; issuer?: string
       rel="noopener noreferrer"
       className="flex items-start gap-3 hover:underline "
     >
-      <Award className="text-slate-700 mt-1 flex-shrink-0" size={24} />
+      <Award className="text-slate-700 mt-1 shrink-0" size={24} />
       <div>
         <h3 className="text-slate-900 mb-2">
          {title}
