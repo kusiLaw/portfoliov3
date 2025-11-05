@@ -1,7 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import {  Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+import Link from "next/link";
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -46,7 +47,6 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto pl-4 pr-6 md:pl-6 md:pr-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-        
           <div className="flex items-center space-x-4">
             <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
               <span className="text-primary-foreground uppercase">LAK</span>
@@ -87,16 +87,16 @@ export function Header() {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden bg-white border-t border-slate-200"
           >
-            <div className="px-4 py-4 space-y-3">
+            <div className="px-4 py-6 space-y-3">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.label}
                   href={item.href}
-                  onClick={(e) => handleNavClick(e, item.href)}
-                  className="block text-slate-600 hover:text-slate-900 transition-colors"
+                  onClick={(e) =>setIsMobileMenuOpen(false)}
+                  className="block text-slate-600 hover:text-slate-900 transition-colors py-1 "
                 >
                   {item.label}
-                </a>
+                </Link>
               ))}
             </div>
           </motion.div>
